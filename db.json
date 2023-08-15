@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Cafe",
+      "price": "50",
+      "urlImg": "http://anything.com",
+      "category": "bebida-caliente"
+    },
+    {
+      "id": 2,
+      "productName": "Licuado",
+      "price": "40",
+      "urlImg": "http://anything.com",
+      "category": "bebida-fria"
+    }
+  ]
+}
