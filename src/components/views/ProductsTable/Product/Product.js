@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Product = () => {
   return (
-    <tr>
+    <tr> 
       <td>1</td>
       <td>Medialuna</td>
       <td>$25</td>
@@ -14,8 +15,8 @@ const Product = () => {
       <td>Bebida Fria</td>
       <td className="w-25">
         <div className="d-flex justify-content-center">
-          <button className="btn-orange mx-1">Update</button>
-          <button className="btn-red mx-1">Delete</button>
+          <Link to="/product/edit" className="btn-orange mx-1 text-decoration-none text-center">Update</Link>
+          <button className="btn-red mx-1 text-decoration-none text-center">Delete</button>
         </div>
       </td>
     </tr>
